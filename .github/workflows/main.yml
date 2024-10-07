@@ -20,8 +20,9 @@ jobs:
       run: pdflatex main.tex
 
     - name: Upload to Dropbox
-      uses: sebastianpopp/dropbox-upload-action@v1.1
-      with:
-        dropbox_access_token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
-        local_file_path: './main.pdf'  # Path to your PDF file
-        dropbox_dest_path: '/Academic_CV/main.pdf'  # Path in Dropbox
+      run: |
+        curl -X POST https://content.dropboxapi.com/2/files/upload \
+        --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
+        --header "Dropbox-API-Arg: {\"path\": \"/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
+        --header "Content-Type: application/octet-stream" \
+        --data-binary @./main.pdf
