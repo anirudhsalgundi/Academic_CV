@@ -24,4 +24,4 @@ jobs:
       with:
         dropbox_access_token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
         local_file_path: './main.pdf'  # Path to your PDF file
-        dropbox_dest_path: '/Academic_CV/main.pdf'  # Path in Dropboxgit remote add origin https://github.com/yourusername/your-repository.git
+        dropbox_dest_path: '/Academic_CV/main.pdf'  # Path in Dropbox
