@@ -1,0 +1,81 @@
+\documentclass[]{kyvernitis-resume}
+\fullname{\textcolor{navyblue}{Anirudh} Salgundi}
+% \jobtitle{Sofware Engineer}
+%\documentclass{article}
+\fontfamily{cmss}\selectfont
+\usepackage{bibentry}
+\usepackage{bibentry}
+% \usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{amssymb}
+\usepackage{ebgaramond}
+% \usepackage[⟨options⟩]{fancyhdr}
+% % \usepackage[a4paper, total={4in, 9in}]{geometry}
+% \usepackage[paperheight=50cm,paperwidth=11cm,textwidth=9cm]{geometry}
+\geometry{
+  a4paper,
+  left=1.3cm,
+  right=1.3cm,
+  top=2cm,
+  bottom=2.5cm,
+  % Other options...
+}
+\newcommand{\me}{\textbf{Salgundi, A}}
+\newcommand{\mee}{\textbf{Anirudh, S}}
+\newcommand{\semibold}[1]{\fontseries{sb}\selectfont #1}
+
+% \definecolor{navyblue}{RGB}{102,0,102}
+
+
+ % for custom header and footer
+\pagestyle{fancy} % set page style to fancy
+\fancyhf{} % clear default header and footer
+\renewcommand{\headrulewidth}{0pt} % remove header rule line
+
+% Custom CV header and footer
+\fancyhead[C]{} % center-aligned header
+\fancyfoot[L]{\scriptsize \emph{\monthname[\the\month] \the\year}} % center-aligned footer
+\fancyfoot[C]{\scriptsize \emph{Anirudh Salgundi}} % center-aligned footer
+\fancyfoot[R]{\scriptsize \emph{Page \thepage}} % center-aligned footer
+
+%##########################################################################
+%                            BEGINS
+%##########################################################################
+
+\begin{document}\resumeheader
+{\email{salgundi.anirudh@gmail.com}}
+{\website{anirudhsalgundi.github.io}}
+{\linkedin{Anirudh Salgundi}}
+
+% {\github{anirudh-salgundi}}
+% {\phone{+91 9482398647}}
+
+% {\nationality{India}}
+
+
+
+\input{Sections_of_CV/Education}
+\vspace{-0.1em}
+
+\input{Sections_of_CV/Experience}
+\vspace{-0.1em}
+
+\input{Sections_of_CV/Publications}
+\vspace{-0.1em}
+
+\input{Sections_of_CV/approved_satellite_time}
+\vspace{-0.1em}
+
+\input{Sections_of_CV/Conferences_workshops_and_positions}
+\vspace{-0.1em}
+
+\input{Sections_of_CV/Responsibilities_and_outreach}
+\vspace{-0.1em}
+
+% \input{Sections_of_CV/Extracurricular}
+% \vspace{-0.1em}
+
+\end{document}
