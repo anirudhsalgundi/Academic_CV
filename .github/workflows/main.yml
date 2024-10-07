@@ -19,10 +19,14 @@ jobs:
     - name: Compile LaTeX document
       run: xelatex main.tex  # Compile the LaTeX document
 
+    - name: List directory contents
+      run: ls -l  # List directory contents to ensure main.pdf is there
+
     - name: Upload to Dropbox
       run: |
         curl -X POST https://content.dropboxapi.com/2/files/upload \
         --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
         --header "Dropbox-API-Arg: {\"path\": \"/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
         --header "Content-Type: application/octet-stream" \
-        --data-binary @./main.pdf
+        --data-binary @./main.pdf \
+        --verbose  # Add verbose logging for more details
