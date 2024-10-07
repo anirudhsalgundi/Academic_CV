@@ -1,0 +1,27 @@
+name: Build LaTeX PDF
+
+on:
+  push:
+    branches:
+      - master  # Change this to your working branch if necessary
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up LaTeX
+      run: sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+
+    - name: Compile LaTeX document
+      run: pdflatex your_cv.tex
+
+    - name: Upload to Dropbox
+      uses: sebastianpopp/dropbox-upload-action@v1.1
+      with:
+        dropbox_access_token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
+        local_file_path: './main.pdf'  # Path to your PDF file
+        dropbox_dest_path: '/Academic_CV/Anirudh_Salgundi_CV.pdf'  # Path in Dropbox
