@@ -23,6 +23,6 @@ jobs:
       run: |
         curl -X POST https://content.dropboxapi.com/2/files/upload \
         --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
-        --header "Dropbox-API-Arg: {\"path\": \"/Apps/Academic_CVAnirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
+        --header "Dropbox-API-Arg: {\"path\": \"/Apps/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
         --header "Content-Type: application/octet-stream" \
         --data-binary @./main.pdf
