@@ -3,7 +3,7 @@ name: Build LaTeX PDF
 on:
   push:
     branches:
-      - main  # Change this to your working branch if necessary
+      - main  # Trigger workflow on push to the 'main' branch
 
 jobs:
   build:
@@ -17,12 +17,12 @@ jobs:
       run: sudo apt-get install -y texlive-xetex texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
     - name: Compile LaTeX document
-      run: xelatex main.tex  # Use xelatex instead of pdflatex
+      run: xelatex main.tex  # Compile the LaTeX document
 
     - name: Upload to Dropbox
       run: |
         curl -X POST https://content.dropboxapi.com/2/files/upload \
         --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
-        --header "Dropbox-API-Arg: {\"path\": \"/Apps/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
+        --header "Dropbox-API-Arg: {\"path\": \"/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
         --header "Content-Type: application/octet-stream" \
         --data-binary @./main.pdf
