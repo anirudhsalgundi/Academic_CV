@@ -17,16 +17,23 @@ jobs:
       run: sudo apt-get install -y texlive-xetex texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
     - name: Compile LaTeX document
-      run: xelatex main.tex  # Compile the LaTeX document
+      run: |
+        xelatex -interaction=nonstopmode main.tex  # Compile the LaTeX document
+        ls -lh main.pdf  # Check if the PDF was created and its size
 
     - name: List directory contents
       run: ls -l  # List directory contents to ensure main.pdf is there
 
     - name: Upload to Dropbox
       run: |
-        curl -X POST https://content.dropboxapi.com/2/files/upload \
-        --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
-        --header "Dropbox-API-Arg: {\"path\": \"/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
-        --header "Content-Type: application/octet-stream" \
-        --data-binary @./main.pdf \
-        --verbose  # Add verbose logging for more details
+        if [ -f "./main.pdf" ]; then
+          curl -X POST https://content.dropboxapi.com/2/files/upload \
+          --header "Authorization: Bearer ${{ secrets.DROPBOX_ACCESS_TOKEN }}" \
+          --header "Dropbox-API-Arg: {\"path\": \"/Academic_CV/Anirudh_Salgundi_CV.pdf\",\"mode\": \"overwrite\"}" \
+          --header "Content-Type: application/octet-stream" \
+          --data-binary @./main.pdf \
+          --verbose  # Add verbose logging for more details
+        else
+          echo "main.pdf not found!"
+          exit 1
+        fi
