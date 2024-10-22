@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.6)  9 OCT 2024 09:56
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.6)  22 OCT 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,14 +813,14 @@ LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 14.
 [1
 
-]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/approved_satellite_time.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Conferences_workshops_and_positions.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Responsibilities_and_outreach.tex
+]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/approved_satellite_time.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Conferences_workshops_and_positions.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Research_project_mentoring.tex
 
-[2]
+[2]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Responsibilities_and_outreach.tex
 Overfull \hbox (4.79675pt too wide) in paragraph at lines 5--6
 []\TU/IBMPlexSans(0)/m/it/10.95 My responsibilities encompass coordinating the citizen science program, searching for Near Earth Objects (NEOs).
  []
 
-) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Extracurricular.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Recommendations.tex)
+) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Extracurricular.tex)
 
 [3] (/Users/starlabiitb/Documents/CV/main.aux)
  ***********
@@ -832,14 +832,14 @@ L3 programming layer <2024-09-10>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 91AE711AA107784778CF639A57D7EF26;7326.
+(rerunfilecheck)             Checksum: 863D2F05878483EA093C84A02D979F63;7314.
  ) 
 Here is how much of TeX's memory you used:
- 15558 strings out of 475752
- 299043 string characters out of 5774357
- 751308 words of memory out of 5000000
- 37855 multiletter control sequences out of 15000+600000
- 563413 words of font info for 97 fonts, out of 8000000 for 9000
+ 15556 strings out of 475752
+ 299050 string characters out of 5774357
+ 751296 words of memory out of 5000000
+ 37854 multiletter control sequences out of 15000+600000
+ 563405 words of font info for 96 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  94i,15n,133p,1034b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
