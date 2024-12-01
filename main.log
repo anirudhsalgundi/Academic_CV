@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.6)  21 NOV 2024 15:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.6)  27 NOV 2024 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ L3 programming layer <2024-09-10>
 Document Class: kyvernitis-resume 2023/06/06 Kyvernitis class
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count190
 \c@section=\count191
@@ -570,7 +570,7 @@ Package fontspec Info:
 (fontspec)             <->s*[1]"[EBGaramond-BoldItalic.otf]/OT:script=latn;language=dflt;+pnum;+onum;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 123.
+(Font)              scaled to size 10.0pt on input line 123.
 
 Package fontspec Info: 
 (fontspec)             EBGaramond-Regular scale = 1.
@@ -712,12 +712,12 @@ LaTeX Font Info:    ... okay on input line 35.
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -799,30 +799,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 (/Users/starlabiitb/Documents/CV/Sections_of_CV/Education.tex
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
+(Font)              scaled to size 10.0pt on input line 2.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/n' will be
+(Font)              scaled to size 13.0pt on input line 2.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 4.
-) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Experience.tex
-LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/b/it' will be
-(Font)              scaled to size 10.95pt on input line 9.
-) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Publications.tex
-
-LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 14.
-LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 14.
-[1
-
-]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/approved_satellite_time.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Conferences_workshops_and_positions.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Research_project_mentoring.tex
-
-[2]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Responsibilities_and_outreach.tex
-Overfull \hbox (4.79675pt too wide) in paragraph at lines 5--6
-[]\TU/IBMPlexSans(0)/m/it/10.95 My responsibilities encompass coordinating the citizen science program, searching for Near Earth Objects (NEOs).
+(Font)              scaled to size 10.0pt on input line 6.
+) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Experience.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Publications.tex
+Overfull \hbox (66.81747pt too wide) in paragraph at lines 32--33
+[]\TU/IBMPlexSans(0)/m/n/10 Swain, V., Andreoni, I., Coughlin, M., Kumar, H., \TU/IBMPlexSans(0)/b/n/10 Salgundi, A\TU/IBMPlexSans(0)/m/n/10 ., (2023), Transient Name Server AstroNote, “ZTF23aaoohpyAT2023lcr:
  []
 
-) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Extracurricular.tex)
 
-[3] (/Users/starlabiitb/Documents/CV/main.aux)
+
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 35.
+LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 35.
+[1
+
+]) (/Users/starlabiitb/Documents/CV/Sections_of_CV/approved_satellite_time.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Conferences_workshops_and_positions.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Research_project_mentoring.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Responsibilities_and_outreach.tex) (/Users/starlabiitb/Documents/CV/Sections_of_CV/Extracurricular.tex)
+
+[2] (/Users/starlabiitb/Documents/CV/main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
@@ -832,15 +829,15 @@ L3 programming layer <2024-09-10>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7FC3A0564781774619B28119EAC9B2B3;7357.
+(rerunfilecheck)             Checksum: 1182C48B288D849476B2DDA6A91B7B71;7154.
  ) 
 Here is how much of TeX's memory you used:
- 15558 strings out of 475752
- 299108 string characters out of 5774357
- 750339 words of memory out of 5000000
- 37856 multiletter control sequences out of 15000+600000
- 563405 words of font info for 96 fonts, out of 8000000 for 9000
+ 15542 strings out of 475752
+ 298871 string characters out of 5774357
+ 758142 words of memory out of 5000000
+ 37845 multiletter control sequences out of 15000+600000
+ 560456 words of font info for 86 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 94i,15n,133p,1034b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,133p,1034b,487s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on /Users/starlabiitb/Documents/CV/main.pdf (3 pages).
+Output written on /Users/starlabiitb/Documents/CV/main.pdf (2 pages).

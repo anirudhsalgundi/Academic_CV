@@ -3,7 +3,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 % Set font size and paper type
-\LoadClass[11pt,letterpaper]{article}
+\LoadClass[10pt,letterpaper]{article}
 
 % Enable custom and named colors
 \RequirePackage[usenames,dvipsnames]{color}
@@ -125,20 +125,57 @@
 }
 
 % Renew section command for resume section
+% \renewenvironment{section}[1]{
+%     % \phantomsection
+%     \addcontentsline{toc}{section}{#1}
+%     \medskip
+%     {\color{navyblue}{\textbf{#1}}}
+%     \medskip
+%     {\color{navyblue}\hrule}
+%     \begin{list}{}{
+%         \setlength{\leftmargin}{0.0em}
+%     }
+%     \item[]
+% }{
+%     \end{list}
+% }
+
+% \renewenvironment{section}[1]{
+%     % \phantomsection
+%     \addcontentsline{toc}{section}{#1}
+%     \medskip
+%     {\color{navyblue}\textbf{\fontsize{13}{14}\selectfont #1}} % Custom font size: 16pt with 20pt line spacing
+%     \medskip
+%     \vspace{-0.3em}
+%     {\color{navyblue}\hrule}
+%     \begin{list}{}{
+%         \setlength{\leftmargin}{0.0em},
+%         \setlength{\itemsep}{3em}
+%     }
+%     \item[]
+% }{
+%     \end{list}
+% }
+
 \renewenvironment{section}[1]{
     % \phantomsection
     \addcontentsline{toc}{section}{#1}
     \medskip
-    {\color{navyblue}{\textbf{#1}}}
+    {\color{navyblue}\textbf{\fontsize{13}{14}\selectfont #1}} % Custom font size: 13pt with 14pt line spacing
     \medskip
+    \vspace{-0.3em}
     {\color{navyblue}\hrule}
     \begin{list}{}{
         \setlength{\leftmargin}{0.0em}
+        \setlength{\itemsep}{0em} % Default spacing
+        \setlength{\parsep}{0em}  % Default paragraph spacing
     }
-    \item[]
+    \item[] \vspace{-0.5em} % Adds space after each item
 }{
     \end{list}
 }
+
+
 
 % Renew subsection command for resume subsections
 % All arguments are compulsory
@@ -152,10 +189,10 @@
     \begin{list}{$\vbullet$}{
         \leftmargin=2em
     }
-    \itemsep -0.5em \vspace{-0.5em}
+    % \itemsep -0.5em \vspace{-0.5em}
 }{
     \end{list}
-    \vspace{0.5em}
+    % \vspace{0.5em}
 }
 
 
