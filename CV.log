@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.18)  10 MAR 2025 20:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.2.18)  10 MAR 2025 20:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -278,7 +278,7 @@ ish.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 15.
+Package hyperref Info: Option `colorlinks' set `true' on input line 14.
 
 (/usr/local/texlive/2024basic/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -306,33 +306,33 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \l__pdf_internal_box=\box56
 \g__pdf_backend_annotation_int=\count289
 \g__pdf_backend_link_int=\count290
-)
-No file CV.aux.
+) (./CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-Package hyperref Info: Link coloring ON on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+Package hyperref Info: Link coloring ON on input line 74.
 \@outlinefile=\write3
 \openout3 = `CV.out'.
+
 
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
@@ -372,32 +372,32 @@ Package hyperref Warning: Rerun to get /PageLabels entry.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 75--75
+Overfull \hbox (30.0pt too wide) in paragraph at lines 74--74
 [] 
  []
 
 ! Undefined control sequence.
 \@addressthree -> {\faMapMarker 
                                 \ Mumbai, India} \\ {\faEnvelope \ \href {ma...
-l.75 \begin{document}
+l.74 \begin{document}
                      
 ? 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 75.
+(Font)              <10.95> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 74.
 ! Undefined control sequence.
 \@addressthree ... Mumbai, India} \\ {\faEnvelope 
                                                   \ \href {mailto:anirudhsal...
-l.75 \begin{document}
+l.74 \begin{document}
                      
 ? 
 ! Undefined control sequence.
 \@addressthree ...lgundi@gmail.com}} \\ {\faGlobe 
                                                   \ \href {https://anirudhsa...
-l.75 \begin{document}
+l.74 \begin{document}
                      
 ? 
 (./sections/education.tex) (./sections/publications.tex)
@@ -408,24 +408,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
 
 
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 14.
-
 [1
 
 ]) (./sections/approved_too.tex) (./sections/skills.tex)
 (./sections/conferences_and_workshops.tex)
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 89.
-
 [2] (./sections/project_mentoring.tex) (./sections/awards_and_fellowships.tex)
 (./sections/outeach_and_positions_of_responsibility.tex)
 (./sections/extracurricular_awards_and_achievements.tex)
 (./sections/key_courses_taken.tex) (./sections/refrences.tex)
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 102.
 
 [3] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -434,9 +425,6 @@ enddocument/afterlastpage (AED): lastpage setting LastPage.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -450,16 +438,16 @@ Package rerunfilecheck Info: Checksums for `CV.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
-Package lastpage Warning: Rerun to get the references right on input line 102.
+Package lastpage Warning: Rerun to get the references right on input line 101.
 
  ) 
 Here is how much of TeX's memory you used:
  10945 strings out of 475364
- 179334 string characters out of 5762130
- 619394 words of memory out of 5000000
+ 179288 string characters out of 5762130
+ 618328 words of memory out of 5000000
  33766 multiletter control sequences out of 15000+600000
- 562024 words of font info for 57 fonts, out of 8000000 for 9000
+ 562016 words of font info for 56 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 72i,11n,79p,662b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,11n,79p,662b,498s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV.pdf (3 pages).
