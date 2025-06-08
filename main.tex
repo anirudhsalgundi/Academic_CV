@@ -1,0 +1,141 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+\usepackage{soul}
+\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{enumitem} 
+\usepackage{hyperref}
+% \usepackage[authoryear]{natbib}
+\usepackage[style=nature,backend=biber,maxnames=10,minnames=10]{biblatex}
+\addbibresource{ref.bib}
+
+% Journal abbreviations
+\newcommand{\pasp}{PASP}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjl}{ApJL}
+\newcommand{\apjs}{ApJS}
+\newcommand{\aj}{AJ}
+\newcommand{\aap}{A\&A}
+\newcommand{\aapr}{A\&A Rev.}
+\newcommand{\nat}{Nature}
+\newcommand{\science}{Science}
+\newcommand{\me}{\textbf{Salgundi, A.}}
+
+\definecolor{cornflowerblue}{rgb}{0.39, 0.58, 0.93}
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=cornflowerblue,
+    urlcolor=cornflowerblue,
+    anchorcolor=cornflowerblue,
+    citecolor=cornflowerblue,
+    pdftitle={Anirudh Salgundi - CV},
+    pdfauthor={Anirudh Salgundi},
+    bookmarksopen=true
+}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{0em}{0em}
+\titlespacing*{\subsection}{0pt}{0em}{0em}
+
+\newcommand{\mytitle}[5]{%
+  \begin{center}
+    {\Huge\textbf{#1}}\\[0.5em]
+    \textit{#2} \\[0.5em]
+    \faEnvelope\ \href{mailto:#3}{#3} \quad
+    \faGlobe\ \href{https://#4}{#4} \quad
+    \faGithub\ \href{https://github.com/#5}{#5}
+  \end{center}
+}
+
+\begin{document}
+\include{colors}
+\mytitle{Anirudh Salgundi}{PhD student at University of North Carolina at Chapel Hill}{anirudhs@unc.edu}{anirudhsalgundi.github.io}{anirudhsalgundi}
+\RaggedRight
+
+\pdfbookmark[1]{Education}{}
+\section*{Education}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/education}
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Research Experience}{}
+\section*{Research Experience}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/experience}
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Awards \& Fellowships}{}
+\section*{Awards \& Fellowships}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/awards}
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Conferences and workshops attended}{}
+\section*{Conferences and workshops attended}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/conferences}
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Observing Experience and Accepted proposals}{}
+\section*{Observing Experience and Accepted proposals}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/approved-proposals}
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Technical Skills}{}
+\section*{Technical Skills}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\textbf{Astronomy Software:} XSPEC, XSELECT, FTOOLS, DS9, IRAF \\
+\textbf{Programming Languages:} Python, Bash, \LaTeX, html, css \\
+\textbf{Python Packages:} Astropy, Stingray, NumPy, SciPy, Pandas, Matplotlib, Seaborn \\
+
+\vspace{0.7em}
+
+\pdfbookmark[1]{Outreach and positions of responsibility}{}
+\section*{Outreach and positions of responsibility}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/outreach}
+
+
+\pdfbookmark[1]{Research Project Mentoring/Co‑mentoring}{}
+\section*{Research Project Mentoring/Co‑mentoring}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/mentoring}
+
+\vspace{1em}
+
+
+
+
+\pdfbookmark[1]{Publications}{}
+\section*{Publications}
+\vspace{-0.5em}
+\noindent\rule{\textwidth}{0.4pt}
+\input{sections/publications}
+
+
+
+% \nocite{*}
+% \printbibliography[heading=none]
+\end{document}
